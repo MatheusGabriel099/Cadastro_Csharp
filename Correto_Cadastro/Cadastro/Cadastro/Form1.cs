@@ -46,5 +46,45 @@ namespace Cadastro
         {
             BackgroundImage = Properties.Resources.civic_g11;
         }
+
+        private void btn_Nome_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = txt_Nome.Text;//Recebendo o nome digitado
+        }
+
+        private void btn_Sobrenome_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = txt_Sobrenome.Text;
+        }
+
+        private void btn_Idade_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = txt_idade.Text;
+        }
+
+        private void btn_Bairro_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = txt_Bairro.Text;
+        }
+
+        private void lbl_Celular_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void txt_Email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Celular_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = txt_Celular.Text;
+        }
+
+        private void btn_Email_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = txt_Email.Text;
+        }
     }
 }

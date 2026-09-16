@@ -38,11 +38,11 @@
             this.lbl_Email = new System.Windows.Forms.Label();
             this.lbl_ConfDados = new System.Windows.Forms.Label();
             this.txt_Nome = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_Sobrenome = new System.Windows.Forms.TextBox();
+            this.txt_idade = new System.Windows.Forms.TextBox();
+            this.txt_Bairro = new System.Windows.Forms.TextBox();
+            this.txt_Celular = new System.Windows.Forms.TextBox();
+            this.txt_Email = new System.Windows.Forms.TextBox();
             this.btn_Nome = new System.Windows.Forms.Button();
             this.btn_Sobrenome = new System.Windows.Forms.Button();
             this.btn_Idade = new System.Windows.Forms.Button();
@@ -58,6 +58,8 @@
             this.btn_Desativar = new System.Windows.Forms.Button();
             this.btn_Limpar = new System.Windows.Forms.Button();
             this.lbl_Resultado = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.Grp_Temas.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -127,6 +129,7 @@
             this.lbl_Celular.Size = new System.Drawing.Size(81, 25);
             this.lbl_Celular.TabIndex = 5;
             this.lbl_Celular.Text = "Celular";
+            this.lbl_Celular.Click += new System.EventHandler(this.lbl_Celular_Click);
             // 
             // lbl_Email
             // 
@@ -157,40 +160,41 @@
             this.txt_Nome.Size = new System.Drawing.Size(168, 20);
             this.txt_Nome.TabIndex = 9;
             // 
-            // textBox2
+            // txt_Sobrenome
             // 
-            this.textBox2.Location = new System.Drawing.Point(141, 236);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(228, 20);
-            this.textBox2.TabIndex = 10;
+            this.txt_Sobrenome.Location = new System.Drawing.Point(141, 236);
+            this.txt_Sobrenome.Name = "txt_Sobrenome";
+            this.txt_Sobrenome.Size = new System.Drawing.Size(228, 20);
+            this.txt_Sobrenome.TabIndex = 10;
             // 
-            // textBox3
+            // txt_idade
             // 
-            this.textBox3.Location = new System.Drawing.Point(89, 274);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(50, 20);
-            this.textBox3.TabIndex = 11;
+            this.txt_idade.Location = new System.Drawing.Point(89, 274);
+            this.txt_idade.Name = "txt_idade";
+            this.txt_idade.Size = new System.Drawing.Size(35, 20);
+            this.txt_idade.TabIndex = 11;
             // 
-            // textBox4
+            // txt_Bairro
             // 
-            this.textBox4.Location = new System.Drawing.Point(89, 310);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(266, 20);
-            this.textBox4.TabIndex = 12;
+            this.txt_Bairro.Location = new System.Drawing.Point(89, 310);
+            this.txt_Bairro.Name = "txt_Bairro";
+            this.txt_Bairro.Size = new System.Drawing.Size(266, 20);
+            this.txt_Bairro.TabIndex = 12;
             // 
-            // textBox5
+            // txt_Celular
             // 
-            this.textBox5.Location = new System.Drawing.Point(96, 347);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(161, 20);
-            this.textBox5.TabIndex = 13;
+            this.txt_Celular.Location = new System.Drawing.Point(96, 347);
+            this.txt_Celular.Name = "txt_Celular";
+            this.txt_Celular.Size = new System.Drawing.Size(161, 20);
+            this.txt_Celular.TabIndex = 13;
             // 
-            // textBox6
+            // txt_Email
             // 
-            this.textBox6.Location = new System.Drawing.Point(87, 379);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(330, 20);
-            this.textBox6.TabIndex = 14;
+            this.txt_Email.Location = new System.Drawing.Point(87, 379);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(330, 20);
+            this.txt_Email.TabIndex = 14;
+            this.txt_Email.TextChanged += new System.EventHandler(this.txt_Email_TextChanged);
             // 
             // btn_Nome
             // 
@@ -202,6 +206,7 @@
             this.btn_Nome.TabIndex = 15;
             this.btn_Nome.Text = "Nome";
             this.btn_Nome.UseVisualStyleBackColor = true;
+            this.btn_Nome.Click += new System.EventHandler(this.btn_Nome_Click);
             // 
             // btn_Sobrenome
             // 
@@ -213,6 +218,7 @@
             this.btn_Sobrenome.TabIndex = 16;
             this.btn_Sobrenome.Text = "Sobrenome";
             this.btn_Sobrenome.UseVisualStyleBackColor = true;
+            this.btn_Sobrenome.Click += new System.EventHandler(this.btn_Sobrenome_Click);
             // 
             // btn_Idade
             // 
@@ -224,6 +230,7 @@
             this.btn_Idade.TabIndex = 17;
             this.btn_Idade.Text = "Idade";
             this.btn_Idade.UseVisualStyleBackColor = true;
+            this.btn_Idade.Click += new System.EventHandler(this.btn_Idade_Click);
             // 
             // btn_Bairro
             // 
@@ -235,6 +242,7 @@
             this.btn_Bairro.TabIndex = 18;
             this.btn_Bairro.Text = "Bairro";
             this.btn_Bairro.UseVisualStyleBackColor = true;
+            this.btn_Bairro.Click += new System.EventHandler(this.btn_Bairro_Click);
             // 
             // btn_Celular
             // 
@@ -246,6 +254,7 @@
             this.btn_Celular.TabIndex = 19;
             this.btn_Celular.Text = "Celular";
             this.btn_Celular.UseVisualStyleBackColor = true;
+            this.btn_Celular.Click += new System.EventHandler(this.btn_Celular_Click);
             // 
             // btn_DadosCompleto
             // 
@@ -269,6 +278,7 @@
             this.btn_Email.TabIndex = 21;
             this.btn_Email.Text = "Email";
             this.btn_Email.UseVisualStyleBackColor = true;
+            this.btn_Email.Click += new System.EventHandler(this.btn_Email_Click);
             // 
             // Grp_Temas
             // 
@@ -354,7 +364,7 @@
             this.lbl_Resultado.AutoSize = true;
             this.lbl_Resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Resultado.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Resultado.Location = new System.Drawing.Point(713, 270);
+            this.lbl_Resultado.Location = new System.Drawing.Point(760, 294);
             this.lbl_Resultado.Name = "lbl_Resultado";
             this.lbl_Resultado.Size = new System.Drawing.Size(190, 31);
             this.lbl_Resultado.TabIndex = 26;
@@ -379,11 +389,11 @@
             this.Controls.Add(this.btn_Idade);
             this.Controls.Add(this.btn_Sobrenome);
             this.Controls.Add(this.btn_Nome);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txt_Email);
+            this.Controls.Add(this.txt_Celular);
+            this.Controls.Add(this.txt_Bairro);
+            this.Controls.Add(this.txt_idade);
+            this.Controls.Add(this.txt_Sobrenome);
             this.Controls.Add(this.txt_Nome);
             this.Controls.Add(this.lbl_ConfDados);
             this.Controls.Add(this.lbl_Email);
@@ -417,11 +427,11 @@
         private System.Windows.Forms.Label lbl_Email;
         private System.Windows.Forms.Label lbl_ConfDados;
         private System.Windows.Forms.TextBox txt_Nome;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_Sobrenome;
+        private System.Windows.Forms.TextBox txt_idade;
+        private System.Windows.Forms.TextBox txt_Bairro;
+        private System.Windows.Forms.TextBox txt_Celular;
+        private System.Windows.Forms.TextBox txt_Email;
         private System.Windows.Forms.Button btn_Nome;
         private System.Windows.Forms.Button btn_Sobrenome;
         private System.Windows.Forms.Button btn_Idade;
@@ -437,6 +447,8 @@
         private System.Windows.Forms.Button btn_Desativar;
         private System.Windows.Forms.Button btn_Limpar;
         private System.Windows.Forms.Label lbl_Resultado;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
     }
 }
 
