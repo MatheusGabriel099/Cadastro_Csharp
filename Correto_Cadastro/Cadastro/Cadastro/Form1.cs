@@ -87,5 +87,27 @@ namespace Cadastro
         {
             lbl_Resultado.Text = txt_Email.Text;//Recebe o Email digitado
         }
+
+        private void btn_Ativar_Click(object sender, EventArgs e)
+        {
+            btn_Desativar.Enabled = true;
+            btn_Limpar.Enabled = true;
+        }
+
+        private void btn_Desativar_Click(object sender, EventArgs e)
+        {
+            btn_Desativar.Enabled = false;
+            btn_Limpar.Enabled = false;
+        }
+
+        private void btn_Limpar_Click(object sender, EventArgs e)
+        {
+            txt_Nome.Clear();
+            txt_Sobrenome.Clear();
+            txt_idade.Clear();
+            txt_Bairro.Clear();
+            txt_Celular.Clear();
+            txt_Email.Clear();
+        }
     }
 }

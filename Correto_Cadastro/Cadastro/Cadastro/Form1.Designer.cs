@@ -66,11 +66,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(353, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 31);
+            this.label1.Size = new System.Drawing.Size(252, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dados Pessoais";
             // 
@@ -198,6 +199,7 @@
             // 
             // btn_Nome
             // 
+            this.btn_Nome.Enabled = false;
             this.btn_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Nome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_Nome.Location = new System.Drawing.Point(526, 182);
@@ -210,6 +212,7 @@
             // 
             // btn_Sobrenome
             // 
+            this.btn_Sobrenome.Enabled = false;
             this.btn_Sobrenome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sobrenome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_Sobrenome.Location = new System.Drawing.Point(517, 220);
@@ -222,6 +225,7 @@
             // 
             // btn_Idade
             // 
+            this.btn_Idade.Enabled = false;
             this.btn_Idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Idade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_Idade.Location = new System.Drawing.Point(526, 258);
@@ -234,6 +238,7 @@
             // 
             // btn_Bairro
             // 
+            this.btn_Bairro.Enabled = false;
             this.btn_Bairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Bairro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_Bairro.Location = new System.Drawing.Point(526, 294);
@@ -246,6 +251,7 @@
             // 
             // btn_Celular
             // 
+            this.btn_Celular.Enabled = false;
             this.btn_Celular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Celular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_Celular.Location = new System.Drawing.Point(526, 331);
@@ -270,6 +276,7 @@
             // 
             // btn_Email
             // 
+            this.btn_Email.Enabled = false;
             this.btn_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_Email.Location = new System.Drawing.Point(526, 369);
@@ -282,10 +289,11 @@
             // 
             // Grp_Temas
             // 
-            this.Grp_Temas.BackColor = System.Drawing.Color.Snow;
+            this.Grp_Temas.BackColor = System.Drawing.Color.White;
             this.Grp_Temas.Controls.Add(this.rad_Tema3);
             this.Grp_Temas.Controls.Add(this.rad_Tema2);
             this.Grp_Temas.Controls.Add(this.rad_Tema1);
+            this.Grp_Temas.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Grp_Temas.Location = new System.Drawing.Point(598, 12);
             this.Grp_Temas.Name = "Grp_Temas";
             this.Grp_Temas.Size = new System.Drawing.Size(352, 58);
@@ -298,7 +306,7 @@
             this.rad_Tema3.AutoSize = true;
             this.rad_Tema3.Location = new System.Drawing.Point(273, 28);
             this.rad_Tema3.Name = "rad_Tema3";
-            this.rad_Tema3.Size = new System.Drawing.Size(58, 17);
+            this.rad_Tema3.Size = new System.Drawing.Size(59, 20);
             this.rad_Tema3.TabIndex = 2;
             this.rad_Tema3.TabStop = true;
             this.rad_Tema3.Text = "Tema3";
@@ -310,7 +318,7 @@
             this.rad_Tema2.AutoSize = true;
             this.rad_Tema2.Location = new System.Drawing.Point(139, 29);
             this.rad_Tema2.Name = "rad_Tema2";
-            this.rad_Tema2.Size = new System.Drawing.Size(58, 17);
+            this.rad_Tema2.Size = new System.Drawing.Size(59, 20);
             this.rad_Tema2.TabIndex = 1;
             this.rad_Tema2.TabStop = true;
             this.rad_Tema2.Text = "Tema2";
@@ -320,9 +328,11 @@
             // rad_Tema1
             // 
             this.rad_Tema1.AutoSize = true;
+            this.rad_Tema1.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_Tema1.ForeColor = System.Drawing.Color.Black;
             this.rad_Tema1.Location = new System.Drawing.Point(15, 28);
             this.rad_Tema1.Name = "rad_Tema1";
-            this.rad_Tema1.Size = new System.Drawing.Size(58, 17);
+            this.rad_Tema1.Size = new System.Drawing.Size(56, 20);
             this.rad_Tema1.TabIndex = 0;
             this.rad_Tema1.TabStop = true;
             this.rad_Tema1.Text = "Tema1";
@@ -331,33 +341,38 @@
             // 
             // btn_Ativar
             // 
-            this.btn_Ativar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btn_Ativar.BackColor = System.Drawing.Color.White;
             this.btn_Ativar.Location = new System.Drawing.Point(12, 26);
             this.btn_Ativar.Name = "btn_Ativar";
             this.btn_Ativar.Size = new System.Drawing.Size(100, 44);
             this.btn_Ativar.TabIndex = 23;
             this.btn_Ativar.Text = "Ativar";
             this.btn_Ativar.UseVisualStyleBackColor = false;
+            this.btn_Ativar.Click += new System.EventHandler(this.btn_Ativar_Click);
             // 
             // btn_Desativar
             // 
-            this.btn_Desativar.BackColor = System.Drawing.Color.IndianRed;
+            this.btn_Desativar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_Desativar.Enabled = false;
             this.btn_Desativar.Location = new System.Drawing.Point(120, 26);
             this.btn_Desativar.Name = "btn_Desativar";
             this.btn_Desativar.Size = new System.Drawing.Size(100, 45);
             this.btn_Desativar.TabIndex = 24;
             this.btn_Desativar.Text = "Desativar";
             this.btn_Desativar.UseVisualStyleBackColor = false;
+            this.btn_Desativar.Click += new System.EventHandler(this.btn_Desativar_Click);
             // 
             // btn_Limpar
             // 
-            this.btn_Limpar.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btn_Limpar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn_Limpar.Enabled = false;
             this.btn_Limpar.Location = new System.Drawing.Point(226, 27);
             this.btn_Limpar.Name = "btn_Limpar";
             this.btn_Limpar.Size = new System.Drawing.Size(96, 44);
             this.btn_Limpar.TabIndex = 25;
             this.btn_Limpar.Text = "Limpar";
             this.btn_Limpar.UseVisualStyleBackColor = false;
+            this.btn_Limpar.Click += new System.EventHandler(this.btn_Limpar_Click);
             // 
             // lbl_Resultado
             // 
