@@ -24,7 +24,8 @@ namespace Cadastro
 
         private void btn_DadosCompleto_Click(object sender, EventArgs e)
         {
-
+            lbl_Resultado.Text = txt_Nome.Text + " " + txt_Sobrenome.Text + "\n" + txt_idade.Text + "\n" + 
+                txt_Bairro.Text + "\n" + txt_Celular.Text + "\n" + txt_Email.Text;
         }
 
         private void lbl_Sobrenome_Click(object sender, EventArgs e)
@@ -34,37 +35,37 @@ namespace Cadastro
 
         private void rad_Tema1_CheckedChanged(object sender, EventArgs e)
         {
-            BackgroundImage = Properties.Resources.civic_g10;
+            BackgroundImage = Properties.Resources.civic_g10;//Muda a imagem de fundo apertando o botão tema1
         }
 
         private void rad_Tema2_CheckedChanged(object sender, EventArgs e)
         {
-            BackgroundImage = Properties.Resources.civic_g8;
+            BackgroundImage = Properties.Resources.civic_g8;//Muda a imagem de fundo apertando o botão tema2
         }
 
         private void rad_Tema3_CheckedChanged(object sender, EventArgs e)
         {
-            BackgroundImage = Properties.Resources.civic_g11;
+            BackgroundImage = Properties.Resources.civic_g11;//Muda a imagem de fundo apertando o botão tema3
         }
 
         private void btn_Nome_Click(object sender, EventArgs e)
         {
-            lbl_Resultado.Text = txt_Nome.Text;//Recebendo o nome digitado
+            lbl_Resultado.Text = txt_Nome.Text;//Recebe o nome digitado
         }
 
         private void btn_Sobrenome_Click(object sender, EventArgs e)
         {
-            lbl_Resultado.Text = txt_Sobrenome.Text;
+            lbl_Resultado.Text = txt_Sobrenome.Text;//Recebe o Sobrenome digitado
         }
 
         private void btn_Idade_Click(object sender, EventArgs e)
         {
-            lbl_Resultado.Text = txt_idade.Text;
+            lbl_Resultado.Text = txt_idade.Text;//Recebe a idade digitada
         }
 
         private void btn_Bairro_Click(object sender, EventArgs e)
         {
-            lbl_Resultado.Text = txt_Bairro.Text;
+            lbl_Resultado.Text = txt_Bairro.Text;//Recebe o Bairro digitado
         }
 
         private void lbl_Celular_Click(object sender, EventArgs e)
@@ -79,12 +80,12 @@ namespace Cadastro
 
         private void btn_Celular_Click(object sender, EventArgs e)
         {
-            lbl_Resultado.Text = txt_Celular.Text;
+            lbl_Resultado.Text = txt_Celular.Text;//Recebe o Celular/Telefone digitado
         }
 
         private void btn_Email_Click(object sender, EventArgs e)
         {
-            lbl_Resultado.Text = txt_Email.Text;
+            lbl_Resultado.Text = txt_Email.Text;//Recebe o Email digitado
         }
     }
 }
