@@ -60,6 +60,7 @@
             this.lbl_Resultado = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.Btn_Enviar = new System.Windows.Forms.Button();
             this.Grp_Temas.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -264,6 +265,7 @@
             // 
             // btn_DadosCompleto
             // 
+            this.btn_DadosCompleto.Enabled = false;
             this.btn_DadosCompleto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_DadosCompleto.ForeColor = System.Drawing.Color.Red;
             this.btn_DadosCompleto.Location = new System.Drawing.Point(526, 437);
@@ -304,6 +306,7 @@
             // rad_Tema3
             // 
             this.rad_Tema3.AutoSize = true;
+            this.rad_Tema3.Enabled = false;
             this.rad_Tema3.Location = new System.Drawing.Point(273, 28);
             this.rad_Tema3.Name = "rad_Tema3";
             this.rad_Tema3.Size = new System.Drawing.Size(59, 20);
@@ -316,6 +319,7 @@
             // rad_Tema2
             // 
             this.rad_Tema2.AutoSize = true;
+            this.rad_Tema2.Enabled = false;
             this.rad_Tema2.Location = new System.Drawing.Point(139, 29);
             this.rad_Tema2.Name = "rad_Tema2";
             this.rad_Tema2.Size = new System.Drawing.Size(59, 20);
@@ -328,6 +332,7 @@
             // rad_Tema1
             // 
             this.rad_Tema1.AutoSize = true;
+            this.rad_Tema1.Enabled = false;
             this.rad_Tema1.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_Tema1.ForeColor = System.Drawing.Color.Black;
             this.rad_Tema1.Location = new System.Drawing.Point(15, 28);
@@ -385,6 +390,20 @@
             this.lbl_Resultado.TabIndex = 26;
             this.lbl_Resultado.Text = "RESULTADO";
             // 
+            // Btn_Enviar
+            // 
+            this.Btn_Enviar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Btn_Enviar.Enabled = false;
+            this.Btn_Enviar.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Enviar.ForeColor = System.Drawing.Color.Red;
+            this.Btn_Enviar.Location = new System.Drawing.Point(834, 575);
+            this.Btn_Enviar.Name = "Btn_Enviar";
+            this.Btn_Enviar.Size = new System.Drawing.Size(185, 58);
+            this.Btn_Enviar.TabIndex = 27;
+            this.Btn_Enviar.Text = "ENVIAR";
+            this.Btn_Enviar.UseVisualStyleBackColor = false;
+            this.Btn_Enviar.Click += new System.EventHandler(this.Btn_Enviar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -392,6 +411,7 @@
             this.BackgroundImage = global::Cadastro.Properties.Resources.civic_g10;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1037, 645);
+            this.Controls.Add(this.Btn_Enviar);
             this.Controls.Add(this.lbl_Resultado);
             this.Controls.Add(this.btn_Limpar);
             this.Controls.Add(this.btn_Desativar);
@@ -464,6 +484,7 @@
         private System.Windows.Forms.Label lbl_Resultado;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.Windows.Forms.Button Btn_Enviar;
     }
 }
 
