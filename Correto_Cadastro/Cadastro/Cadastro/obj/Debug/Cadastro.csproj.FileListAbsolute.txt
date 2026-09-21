@@ -19,3 +19,14 @@ C:\Users\DB\Desktop\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug
 C:\Users\DB\Desktop\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.exe
 C:\Users\DB\Desktop\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.pdb
 C:\Users\DB\Desktop\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.Form1.resources
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\bin\Debug\Cadastro.exe.config
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\bin\Debug\Cadastro.exe
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.AssemblyReference.cache
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.exe.config
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.Form1.resources
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.Properties.Resources.resources
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.GenerateResource.cache
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.CoreCompileInputs.cache
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.exe
+C:\Users\DB\Documents\GitHub\Cadastro_Csharp\Correto_Cadastro\Cadastro\Cadastro\obj\Debug\Cadastro.pdb
