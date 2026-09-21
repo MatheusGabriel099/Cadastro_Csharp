@@ -35,17 +35,17 @@ namespace Cadastro
 
         private void rad_Tema1_CheckedChanged(object sender, EventArgs e)
         {
-            BackgroundImage = Properties.Resources.civic_g10;//Muda a imagem de fundo apertando o botão tema1
+            BackgroundImage = Properties.Resources.porsche911;//Muda a imagem de fundo apertando o botão tema1
         }
 
         private void rad_Tema2_CheckedChanged(object sender, EventArgs e)
         {
-            BackgroundImage = Properties.Resources.civic_g8;//Muda a imagem de fundo apertando o botão tema2
+            BackgroundImage = Properties.Resources.porscheGT3;//Muda a imagem de fundo apertando o botão tema2
         }
 
         private void rad_Tema3_CheckedChanged(object sender, EventArgs e)
         {
-            BackgroundImage = Properties.Resources.civic_g11;//Muda a imagem de fundo apertando o botão tema3
+            BackgroundImage = Properties.Resources.porshe918;//Muda a imagem de fundo apertando o botão tema3
         }
 
         private void btn_Nome_Click(object sender, EventArgs e)
@@ -130,7 +130,7 @@ namespace Cadastro
             txt_Bairro.Clear(); //Apaga o Bairro escrito na caixa de texto
             txt_Celular.Clear(); //Apaga o Celular escrito na caixa de texto
             txt_Email.Clear(); //Apaga o Email escrito na caixa de texto
-            lbl_Resultado.Text = "RESULTADO"; //Apaga as informações
+            lbl_Resultado.Text = ""; //Apaga as informações
         }
 
         private void Btn_Enviar_Click(object sender, EventArgs e)

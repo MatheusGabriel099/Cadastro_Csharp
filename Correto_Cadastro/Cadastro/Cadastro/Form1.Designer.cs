@@ -81,7 +81,7 @@
             this.Lbl_Nome.AutoSize = true;
             this.Lbl_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Nome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.Lbl_Nome.Location = new System.Drawing.Point(12, 193);
+            this.Lbl_Nome.Location = new System.Drawing.Point(13, 182);
             this.Lbl_Nome.Name = "Lbl_Nome";
             this.Lbl_Nome.Size = new System.Drawing.Size(68, 25);
             this.Lbl_Nome.TabIndex = 1;
@@ -92,7 +92,7 @@
             this.lbl_Sobrenome.AutoSize = true;
             this.lbl_Sobrenome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Sobrenome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl_Sobrenome.Location = new System.Drawing.Point(12, 231);
+            this.lbl_Sobrenome.Location = new System.Drawing.Point(12, 220);
             this.lbl_Sobrenome.Name = "lbl_Sobrenome";
             this.lbl_Sobrenome.Size = new System.Drawing.Size(123, 25);
             this.lbl_Sobrenome.TabIndex = 2;
@@ -104,7 +104,7 @@
             this.lbl_Idade.AutoSize = true;
             this.lbl_Idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Idade.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl_Idade.Location = new System.Drawing.Point(12, 268);
+            this.lbl_Idade.Location = new System.Drawing.Point(13, 258);
             this.lbl_Idade.Name = "lbl_Idade";
             this.lbl_Idade.Size = new System.Drawing.Size(66, 25);
             this.lbl_Idade.TabIndex = 3;
@@ -115,7 +115,7 @@
             this.lbl_Bairro.AutoSize = true;
             this.lbl_Bairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Bairro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl_Bairro.Location = new System.Drawing.Point(12, 305);
+            this.lbl_Bairro.Location = new System.Drawing.Point(14, 294);
             this.lbl_Bairro.Name = "lbl_Bairro";
             this.lbl_Bairro.Size = new System.Drawing.Size(69, 25);
             this.lbl_Bairro.TabIndex = 4;
@@ -126,7 +126,7 @@
             this.lbl_Celular.AutoSize = true;
             this.lbl_Celular.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Celular.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbl_Celular.Location = new System.Drawing.Point(12, 341);
+            this.lbl_Celular.Location = new System.Drawing.Point(9, 331);
             this.lbl_Celular.Name = "lbl_Celular";
             this.lbl_Celular.Size = new System.Drawing.Size(81, 25);
             this.lbl_Celular.TabIndex = 5;
@@ -148,7 +148,7 @@
             // 
             this.lbl_ConfDados.AutoSize = true;
             this.lbl_ConfDados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ConfDados.ForeColor = System.Drawing.Color.OrangeRed;
+            this.lbl_ConfDados.ForeColor = System.Drawing.Color.Navy;
             this.lbl_ConfDados.Location = new System.Drawing.Point(7, 437);
             this.lbl_ConfDados.Name = "lbl_ConfDados";
             this.lbl_ConfDados.Size = new System.Drawing.Size(239, 25);
@@ -157,45 +157,57 @@
             // 
             // txt_Nome
             // 
-            this.txt_Nome.Location = new System.Drawing.Point(87, 198);
+            this.txt_Nome.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nome.Location = new System.Drawing.Point(85, 182);
             this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(168, 20);
+            this.txt_Nome.Size = new System.Drawing.Size(123, 27);
             this.txt_Nome.TabIndex = 9;
+            this.txt_Nome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_Sobrenome
             // 
-            this.txt_Sobrenome.Location = new System.Drawing.Point(141, 236);
+            this.txt_Sobrenome.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Sobrenome.Location = new System.Drawing.Point(141, 218);
             this.txt_Sobrenome.Name = "txt_Sobrenome";
-            this.txt_Sobrenome.Size = new System.Drawing.Size(228, 20);
+            this.txt_Sobrenome.Size = new System.Drawing.Size(160, 27);
             this.txt_Sobrenome.TabIndex = 10;
+            this.txt_Sobrenome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_idade
             // 
-            this.txt_idade.Location = new System.Drawing.Point(89, 274);
+            this.txt_idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_idade.Location = new System.Drawing.Point(89, 258);
             this.txt_idade.Name = "txt_idade";
-            this.txt_idade.Size = new System.Drawing.Size(35, 20);
+            this.txt_idade.Size = new System.Drawing.Size(50, 20);
             this.txt_idade.TabIndex = 11;
+            this.txt_idade.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_Bairro
             // 
-            this.txt_Bairro.Location = new System.Drawing.Point(89, 310);
+            this.txt_Bairro.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Bairro.Location = new System.Drawing.Point(89, 294);
             this.txt_Bairro.Name = "txt_Bairro";
-            this.txt_Bairro.Size = new System.Drawing.Size(266, 20);
+            this.txt_Bairro.Size = new System.Drawing.Size(233, 27);
             this.txt_Bairro.TabIndex = 12;
+            this.txt_Bairro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_Celular
             // 
-            this.txt_Celular.Location = new System.Drawing.Point(96, 347);
+            this.txt_Celular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Celular.Location = new System.Drawing.Point(96, 335);
             this.txt_Celular.Name = "txt_Celular";
-            this.txt_Celular.Size = new System.Drawing.Size(161, 20);
+            this.txt_Celular.Size = new System.Drawing.Size(161, 21);
             this.txt_Celular.TabIndex = 13;
+            this.txt_Celular.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txt_Email
             // 
-            this.txt_Email.Location = new System.Drawing.Point(87, 379);
+            this.txt_Email.Font = new System.Drawing.Font("Segoe Print", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Email.Location = new System.Drawing.Point(83, 373);
             this.txt_Email.Name = "txt_Email";
-            this.txt_Email.Size = new System.Drawing.Size(330, 20);
+            this.txt_Email.Size = new System.Drawing.Size(272, 27);
             this.txt_Email.TabIndex = 14;
+            this.txt_Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_Email.TextChanged += new System.EventHandler(this.txt_Email_TextChanged);
             // 
             // btn_Nome
@@ -216,9 +228,9 @@
             this.btn_Sobrenome.Enabled = false;
             this.btn_Sobrenome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sobrenome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_Sobrenome.Location = new System.Drawing.Point(517, 220);
+            this.btn_Sobrenome.Location = new System.Drawing.Point(526, 220);
             this.btn_Sobrenome.Name = "btn_Sobrenome";
-            this.btn_Sobrenome.Size = new System.Drawing.Size(164, 36);
+            this.btn_Sobrenome.Size = new System.Drawing.Size(155, 36);
             this.btn_Sobrenome.TabIndex = 16;
             this.btn_Sobrenome.Text = "Sobrenome";
             this.btn_Sobrenome.UseVisualStyleBackColor = true;
@@ -267,7 +279,7 @@
             // 
             this.btn_DadosCompleto.Enabled = false;
             this.btn_DadosCompleto.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_DadosCompleto.ForeColor = System.Drawing.Color.Red;
+            this.btn_DadosCompleto.ForeColor = System.Drawing.Color.Navy;
             this.btn_DadosCompleto.Location = new System.Drawing.Point(526, 437);
             this.btn_DadosCompleto.Name = "btn_DadosCompleto";
             this.btn_DadosCompleto.Size = new System.Drawing.Size(155, 65);
@@ -296,7 +308,7 @@
             this.Grp_Temas.Controls.Add(this.rad_Tema2);
             this.Grp_Temas.Controls.Add(this.rad_Tema1);
             this.Grp_Temas.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Grp_Temas.Location = new System.Drawing.Point(598, 12);
+            this.Grp_Temas.Location = new System.Drawing.Point(658, 13);
             this.Grp_Temas.Name = "Grp_Temas";
             this.Grp_Temas.Size = new System.Drawing.Size(352, 58);
             this.Grp_Temas.TabIndex = 22;
@@ -307,9 +319,10 @@
             // 
             this.rad_Tema3.AutoSize = true;
             this.rad_Tema3.Enabled = false;
+            this.rad_Tema3.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_Tema3.Location = new System.Drawing.Point(273, 28);
             this.rad_Tema3.Name = "rad_Tema3";
-            this.rad_Tema3.Size = new System.Drawing.Size(59, 20);
+            this.rad_Tema3.Size = new System.Drawing.Size(64, 21);
             this.rad_Tema3.TabIndex = 2;
             this.rad_Tema3.TabStop = true;
             this.rad_Tema3.Text = "Tema3";
@@ -320,9 +333,10 @@
             // 
             this.rad_Tema2.AutoSize = true;
             this.rad_Tema2.Enabled = false;
+            this.rad_Tema2.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_Tema2.Location = new System.Drawing.Point(139, 29);
             this.rad_Tema2.Name = "rad_Tema2";
-            this.rad_Tema2.Size = new System.Drawing.Size(59, 20);
+            this.rad_Tema2.Size = new System.Drawing.Size(64, 21);
             this.rad_Tema2.TabIndex = 1;
             this.rad_Tema2.TabStop = true;
             this.rad_Tema2.Text = "Tema2";
@@ -333,11 +347,11 @@
             // 
             this.rad_Tema1.AutoSize = true;
             this.rad_Tema1.Enabled = false;
-            this.rad_Tema1.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rad_Tema1.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rad_Tema1.ForeColor = System.Drawing.Color.Black;
             this.rad_Tema1.Location = new System.Drawing.Point(15, 28);
             this.rad_Tema1.Name = "rad_Tema1";
-            this.rad_Tema1.Size = new System.Drawing.Size(56, 20);
+            this.rad_Tema1.Size = new System.Drawing.Size(61, 21);
             this.rad_Tema1.TabIndex = 0;
             this.rad_Tema1.TabStop = true;
             this.rad_Tema1.Text = "Tema1";
@@ -347,7 +361,7 @@
             // btn_Ativar
             // 
             this.btn_Ativar.BackColor = System.Drawing.Color.White;
-            this.btn_Ativar.Location = new System.Drawing.Point(12, 26);
+            this.btn_Ativar.Location = new System.Drawing.Point(17, 13);
             this.btn_Ativar.Name = "btn_Ativar";
             this.btn_Ativar.Size = new System.Drawing.Size(100, 44);
             this.btn_Ativar.TabIndex = 23;
@@ -359,7 +373,7 @@
             // 
             this.btn_Desativar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_Desativar.Enabled = false;
-            this.btn_Desativar.Location = new System.Drawing.Point(120, 26);
+            this.btn_Desativar.Location = new System.Drawing.Point(123, 12);
             this.btn_Desativar.Name = "btn_Desativar";
             this.btn_Desativar.Size = new System.Drawing.Size(100, 45);
             this.btn_Desativar.TabIndex = 24;
@@ -371,7 +385,7 @@
             // 
             this.btn_Limpar.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_Limpar.Enabled = false;
-            this.btn_Limpar.Location = new System.Drawing.Point(226, 27);
+            this.btn_Limpar.Location = new System.Drawing.Point(229, 13);
             this.btn_Limpar.Name = "btn_Limpar";
             this.btn_Limpar.Size = new System.Drawing.Size(96, 44);
             this.btn_Limpar.TabIndex = 25;
@@ -382,11 +396,11 @@
             // lbl_Resultado
             // 
             this.lbl_Resultado.AutoSize = true;
-            this.lbl_Resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Resultado.Font = new System.Drawing.Font("Segoe Print", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Resultado.ForeColor = System.Drawing.Color.Red;
-            this.lbl_Resultado.Location = new System.Drawing.Point(760, 294);
+            this.lbl_Resultado.Location = new System.Drawing.Point(777, 299);
             this.lbl_Resultado.Name = "lbl_Resultado";
-            this.lbl_Resultado.Size = new System.Drawing.Size(190, 31);
+            this.lbl_Resultado.Size = new System.Drawing.Size(195, 47);
             this.lbl_Resultado.TabIndex = 26;
             this.lbl_Resultado.Text = "RESULTADO";
             // 
@@ -396,7 +410,7 @@
             this.Btn_Enviar.Enabled = false;
             this.Btn_Enviar.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Enviar.ForeColor = System.Drawing.Color.Red;
-            this.Btn_Enviar.Location = new System.Drawing.Point(834, 575);
+            this.Btn_Enviar.Location = new System.Drawing.Point(840, 575);
             this.Btn_Enviar.Name = "Btn_Enviar";
             this.Btn_Enviar.Size = new System.Drawing.Size(185, 58);
             this.Btn_Enviar.TabIndex = 27;

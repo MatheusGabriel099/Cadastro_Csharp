@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|c:\\users\\db\\documents\\github\\cadastro_csharp\\correto_cadastro\\cadastro\\cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|solutionrelative:cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|solutionrelative:cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|c:\\users\\db\\documents\\github\\cadastro_csharp\\correto_cadastro\\cadastro\\cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|solutionrelative:cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|c:\\users\\db\\documents\\github\\cadastro_csharp\\correto_cadastro\\cadastro\\cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{64A31B1B-477C-4F1B-8C8F-109ADFC4078E}|Cadastro\\Cadastro.csproj|solutionrelative:cadastro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +23,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\Cadastro\\Form1.cs",
-              "RelativeDocumentMoniker": "Cadastro\\Form1.cs",
-              "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\Cadastro\\Form1.cs",
-              "RelativeToolTip": "Cadastro\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T22:37:32.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\Cadastro\\Form1.cs",
               "RelativeDocumentMoniker": "Cadastro\\Form1.cs",
@@ -44,6 +31,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T22:51:56.116Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\Cadastro\\Form1.cs",
+              "RelativeDocumentMoniker": "Cadastro\\Form1.cs",
+              "ToolTip": "C:\\Users\\DB\\Documents\\GitHub\\Cadastro_Csharp\\Correto_Cadastro\\Cadastro\\Cadastro\\Form1.cs",
+              "RelativeToolTip": "Cadastro\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T22:37:32.48Z",
+              "EditorCaption": ""
             }
           ]
         }
